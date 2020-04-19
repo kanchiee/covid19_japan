@@ -7,7 +7,7 @@
 import folium
 import pandas as pd
 from pandas import Series,DataFrame
-cov = pd.read_csv("filepath/covid19japan.csv",encoding = "cp932")
+cov = pd.read_csv("https://github.com/kanchiee/covid19_japan/blob/master/covid19japan.csv",encoding = "cp932")
 data_size = len(cov["name"])
 test_map = folium.Map(
     location=[35.5366158 , 139.74857073333332], #新しい地図を作るときの中央にくる緯度と経度を入れます
